@@ -22,3 +22,12 @@ Workflow #2: Executed after pull request #9 was merged into main.
 
 Both workflows run successfully and in this way continuous integration is implemented and changes are automatically verified through unit testing before and after any integration in the main branch. 
 
+Code Coverage (JaCoCo)
+
+Code coverage is measured using the JaCoCo Maven plugin (version 0.8.16).
+
+mvn clean verify was used in the command prompt then i used the target/site/jacoco/index.html command to get the report.
+
+![JaCoCo Coverage Report](screenshots/jacoco-coverage.png)
+
+Both JUnit 5 tests passed sccessfully with no failures or errors. Because the multiplication class does not contain any conditional branches the branch coverage is not applicable. 
