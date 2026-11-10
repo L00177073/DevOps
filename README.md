@@ -28,6 +28,6 @@ Code coverage is measured using the JaCoCo Maven plugin (version 0.8.16).
 
 mvn clean verify was used in the command prompt then i used the target/site/jacoco/index.html command to get the report.
 
-![alt text](image.png)
+![JaCoCo Coverage Report](screenshots/jacoco-coverage.png)
 
 Both JUnit 5 tests passed sccessfully with no failures or errors. Because the multiplication class does not contain any conditional branches the branch coverage is not applicable. 
