@@ -1,23 +1,24 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Maven build output
+target/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Secrets and credentials
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.json
+credentials.json
+
+# IDE files
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+.idea/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
